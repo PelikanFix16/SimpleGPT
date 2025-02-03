@@ -52,8 +52,15 @@ use_case = "creative_writing"
 
 Run the script in test mode to generate text:
 
+inside `main.py` change this line to
+
+```python
+test_mode = True
+```
+
+Then run
 ```bash
-python main.py --test_mode
+python main.py
 ```
 
 ### Checkpointing
